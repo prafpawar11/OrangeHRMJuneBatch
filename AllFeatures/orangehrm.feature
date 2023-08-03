@@ -16,3 +16,9 @@ Feature: Test the Orange HRM application
     Then Click on Add Employee 
     And Enter Firstname MiddleName LastName and capture the Empid
     And Click on save button.
+    
+    #Kreeti Automation test Engineer
+    Scenario: Test my info functionality
+    When User click on My Info link
+    And User enter Firstname MiddleName LastName
+    And User click on save button
