@@ -30,7 +30,13 @@ public class BaseClass {
 		driver.manage().timeouts().pageLoadTimeout(Duration.ofSeconds(45));
 		driver.manage().deleteAllCookies();
 		driver.get(prop.getProperty("url"));
-
+		//driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
+		//driver.get(prop.getProperty("url"));
+		
+		//driver.get(prop.getProperty("url"));
+				//driver.get(prop.getProperty("url"));
+				//driver.get(prop.getProperty("url"));
 	}
 
 }
