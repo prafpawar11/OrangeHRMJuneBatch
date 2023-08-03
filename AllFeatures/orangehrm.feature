@@ -9,3 +9,10 @@ Feature: Test the Orange HRM application
     When user is on home page and validate home page title
     And validate home page url
     And validate home page logo
+
+    #Gauri Automation test Engineer
+    Scenario: PIM page Functionality
+    When user click on PIM link
+    Then Click on Add Employee 
+    And Enter Firstname MiddleName LastName and capture the Empid
+    And Click on save button.
